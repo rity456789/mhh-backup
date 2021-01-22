@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+body {
+  padding-right: 0 !important;
+  min-width: 800px; /* Suppose you want minimum width of 1000px */
+  width: auto !important; /* Firefox will set width as auto */
+  width: 800px; /* As IE6 ignores !important it will set width as 1000px; */
+}
+
+.content {
+  min-height: 60vh;
+  margin-top: 70px;
+}
+
+.dark {
+  background-color: #333;
+}
+
+.grey {
+  background-color: #555;
+}
+
+.list-group-item span {
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+Yêu cầu môi trường:
+	node: version 13.0.0+
+	yarn: version 1.22.0+
+	dotenv-cli global
+
+Cách start chương trình, mở cmd ở mỗi project và gõ các lệnh sau:
+	Start mhh-backend-service (back-end) trước:
+		npm install
+		yarn install
+		yarn dev
+
+	Start book-store (front-end client):
+		npm install
+		npm start
+
+	Start BookStore-Admin (front-end admin):
+		npm install
+		npm start
+
+Tài khoản admin:
+	username: haibui
+	password: haibui
+
+Tài khoản khách hàng:
+	username: haibin
+	password: haibin
